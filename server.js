@@ -84,7 +84,7 @@ app.get('/', (req, res) => {
 const PORT = process.env.PORT || 4000
 app.listen(PORT, () => {
     console.log(`SERVER is RUNNING ON PORT ${PORT}`)  
-    mongoose.connect('mongodb://localhost:27017/Course',
+    mongoose.connect('mongodb://localhost:27017/College',
         { useNewUrlParser: true },
         () => {
         console.log('Database Connected...')

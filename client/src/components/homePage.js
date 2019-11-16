@@ -65,6 +65,7 @@ import Table from 'react-bootstrap/Table';
                 <input variant="primary" type="submit" value="Enter Course Details"/>
                 </form>
             </div>
+            <h1>            </h1>
             <div className="box1"  >
                 <form onSubmit={this.handleSubmitp}>
                 {/* <label>
@@ -75,6 +76,7 @@ import Table from 'react-bootstrap/Table';
                 <input variant="primary" type="submit" value="Enter Student Details"/>
             </form>
             </div>
+            
 
             {
                 this.state.Student ?
@@ -100,6 +102,11 @@ import Table from 'react-bootstrap/Table';
                         <td>3</td>
                         <td >Course ID</td>
                         <td>{this.state.Student.course_id}</td>
+                        </tr>
+                        <tr>
+                        <td>4</td>
+                        <td >Joining Date</td>
+                        <td>{this.state.Student.Joining_date}</td>
                         </tr>
                     </tbody>
                     </Table>
