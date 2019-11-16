@@ -54,6 +54,7 @@ import Table from 'react-bootstrap/Table';
     render (){
         return(
         <div className="container">
+            <h1>College Dashboard </h1>
             <div className="box"  >
                 <label>
                     Enter details
